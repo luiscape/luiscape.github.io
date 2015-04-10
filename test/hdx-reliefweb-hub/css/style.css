@@ -1,0 +1,84 @@
+body {
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 800;
+}
+
+h5 {
+	font-style: italic;
+	color: #ccc;
+}
+
+.top-bar {
+  background: #c79eda;
+  /* position: fixed; */
+  z-index: 1999;
+  top: 0;
+  left: 0;
+  height: 2px;
+}
+
+.title {
+	font-family: 'EB Garamond';
+	font-size: 70px;
+	padding-top: 15%;
+	font-style: italic;
+}
+
+.sub-title {
+	font-family: 'EB Garamond';
+	font-size: 27px;
+	font-style: italic;
+}
+
+.results-container {
+   padding-top: 9%;
+}
+
+.result-container {
+   float: center;
+}
+
+.result-text {
+  padding-left: 0px;
+}
+
+.result-lights {
+  position: relative;
+  bottom: -40px;
+}
+
+.results-circle {
+	position: relative;
+  	bottom: -30px;
+	border-radius: 50%;
+	background-color: #fc8d59;
+	width: 10px;
+	height: 10px;
+}
+
+.result-hdx-circle-orange {
+	border-radius: 50%;
+	background-color: #fc8d59;
+	width: 10px;
+	height: 10px;
+}
+
+.result-hdx-circle-yellow {
+	border-radius: 50%;
+	background-color: #ffffbf;
+	width: 10px;
+	height: 10px;
+}
+
+.result-hdx-circle-blue {
+	border-radius: 50%;
+	background-color: #91bfdb;
+	width: 10px;
+	height: 10px;
+}
